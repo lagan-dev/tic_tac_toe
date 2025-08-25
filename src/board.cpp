@@ -69,4 +69,5 @@ bool Board::is_full() {
   return true;
 }
 
+int Board::board_size() { return board.size(); }
 void Board::print_line() { std::cout << "+-----+-----+-----+" << std::endl; }

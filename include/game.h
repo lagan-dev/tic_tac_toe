@@ -1,17 +1,15 @@
-#ifndef GAME_H
-#define GAME_H
-
-// #include <iostream>
+#ifndef INCLUDE_GAME_H
+#define INCLUDE_GAME_H
 
 class Game {
 public:
-    void start();
+  void start();
 
 private:
-    int choose_mode();
-    char choose_symbol();
-    void start_PvP();
-    void start_PvComputer();
+  int choose_mode();
+  char choose_symbol();
+  void start_PvP();
+  void start_PvComputer();
 };
 
-#endif
+#endif // INCLUDE_GAME_H

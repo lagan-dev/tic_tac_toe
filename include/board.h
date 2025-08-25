@@ -1,5 +1,5 @@
-#ifndef BOARD_H
-#define BOARD_H
+#ifndef INCLUDE_BOARD_H_
+#define INCLUDE_BOARD_H_
 
 #include <vector>
 
@@ -12,10 +12,11 @@ public:
   bool is_cell_empty(int pos);
   char check_winner();
   bool is_full();
+  int board_size();
 
 private:
   void print_line();
   std::vector<char> board;
 };
 
-#endif // BOARD_H
+#endif // INCLUDE_BOARD_H_

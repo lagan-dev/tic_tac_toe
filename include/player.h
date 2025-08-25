@@ -1,7 +1,5 @@
-#ifndef PLAYER_H
-#define PLAYER_H
-
-// #include "board.h"
+#ifndef INCLUDE_PLAYER_H
+#define INCLUDE_PLAYER_H
 
 class Player {
 public:
@@ -13,4 +11,4 @@ private:
   char symbol;
 };
 
-#endif
+#endif // INCLUDE_PLAYER_H
